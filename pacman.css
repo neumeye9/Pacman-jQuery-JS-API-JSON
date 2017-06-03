@@ -1,0 +1,55 @@
+/*CSS Reset Settings*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    margin: 0px;
+}
+div.row div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.brick{ 
+    background-color: blue;
+}
+.coin{
+    background: url('pacmancoin.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cherry{
+    background: url('cherry.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 10px;
+}
+#pacman{
+    background: url('pacman.gif'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#score{
+    border: 1px solid white;
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    width: 30px;
+    height: 20px;
+    padding: 7px;
+}
+#btn{
+    margin-left: 350px;
+    position: relative;
+    bottom: 20px;
+    width: 150px;
+    height: 80px;
+}
